@@ -1,3 +1,5 @@
+FORK THIS REPOSITORY
+
 Study Case: Fibonacci Sequence Calculator
 
 Background: You’re tasked with creating a Python program that generates the Fibonacci sequence. The Fibonacci sequence is a series of numbers where each number is the sum of the two preceding ones (starting with 0 and 1).
