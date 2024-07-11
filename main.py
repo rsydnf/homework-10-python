@@ -2,7 +2,8 @@ from fibonacci import fibonacci
 
 def main():
     numTerms = int(input("Enter the number of Fibonacci terms: "))
-    numTerms <= 0
+    seq = fibonacci(numTerms)
+    print ("The Fibonacci sequence is:"+", ".join(map(str, seq)))
 
-seq = fibonnaci(numTerms)
-print ("The Fibonacci sequence is:".join(map(str, sequence)))
+if __name__ == "__main__":
+    main()
