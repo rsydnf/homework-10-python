@@ -1,8 +1,8 @@
-from fibonacci import fibonacci
+from fibonacci import doFibonacci
 
 def main():
     numTerms = int(input("Enter the number of Fibonacci terms: "))
-    seq = fibonacci(numTerms)
+    seq = doFibonacci(numTerms)
     print ("The Fibonacci sequence is:"+", ".join(map(str, seq)))
 
 if __name__ == "__main__":
